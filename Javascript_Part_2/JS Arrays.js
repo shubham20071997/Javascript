@@ -84,6 +84,83 @@
 // const slice = combined.slice (2,4)
 // console.log (slice);
 
+// Spread Operator
+// const combined = [...first, ...second]
+// const combined = [...first, 8, 9, ...second]
+// console.log (combined)
+
+// iterating an array
+// const numbers = [1, 2, 3];
+// for (let number of numbers)
+// console.log(number);
+
+// numbers.forEach (function(number){
+//     console.log (number);
+// })
+
+// numbers.forEach (number=> console.log(number));
+// numbers.forEach ((number, index)=> console.log (index, number));
+
+// Joining Arrays
+// const numbers = [1, 2, 3];
+// const joined = numbers.join ('----');
+// console.log (joined)
+
+// const message = "this is my first message"
+// const parts = message.split (' ');
+// console.log (parts)
+
+// Sorting Arrays
+// const numbers = [3, 1, 2, 4];
+// numbers.sort();
+// console.log (numbers)
+// numbers.reverse ();
+// console.log (numbers);
+
+// const courses = [
+//     {id:1, name: 'node.js'},
+//     {id:2, name: 'Javascript'},
+// ];
+// courses.sort (function (a,b){
+//     const nameA = a.name.toUpperCase;
+//     const nameB = b.name.toUpperCase;
+//     if (nameA < nameB) return -1;
+//     if (nameA > nameB) return 1;
+//     return 0;
+// });
+// console.log (courses);
+
+// Testing the elements of an array
+// const numbers = [1, 2, 3];
+// const allPositive = numbers.every(function(value){
+//     return value >= 0;})
+// console.log (allPositive);
+// const numbers = [1, 2, -1, 3];
+// const onePositive = numbers.some(function(value){
+//     return value >= 0;})
+// console.log (onePositive);
+
+// Filtering an array
+// const numbers = [1, -1, 2, 3];
+// const filtered = numbers.filter (value=> value>=0);
+// console.log (filtered)
+
+// Mapping an array
+// const numbers = [1, -1, 2, 3]
+// const items = numbers
+// .filter (n=> n>=0)
+// .map (n=>({value:n}))
+// .filter (obj=> obj.value>1)
+// .map (obj=> obj.value);
+// console.log (items)
+
+// Reducing an Array
+// const sum = numbers.reduce ((accumulator, currentvalue)=> 
+// accumulator + currentvalue);
+// console.log (sum);
+
+
+
 
 
 
