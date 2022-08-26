@@ -12,10 +12,12 @@
 // console.log (numbers)
 
 // Beginning
+// const numbers = [3, 4];
 // numbers.unshift (1, 2);
 // console.log (numbers)
 
 // Middle
+// const numbers = [3, 4];
 // numbers.splice (1, 0 , 5, 6);
 // console.log (numbers)
 
@@ -155,6 +157,7 @@
 // console.log (items)
 
 // Reducing an Array
+// const numbers = [1, -1, 2, 3]
 // const sum = numbers.reduce ((accumulator, currentvalue)=> 
 // accumulator + currentvalue);
 // console.log (sum);
