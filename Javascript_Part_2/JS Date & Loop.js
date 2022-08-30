@@ -68,21 +68,21 @@
 // while (i<100);
 
 // Switch Loop
-// let day = "Sunday"
-// switch (day) {
-//     case 'Sunday':
-//         console.log ("7am")
-//         break;
-//     case "Monday":
-//     case "Tuesday":
-//     case "Wednesday":
-//         console.log ("4pm")
-//         break;
-//     case "Thursday":
-//         console.log ("5pm")
-//         break;
-//     case "Friday":
-//         console.log ("8am")
-//         break;
-// }
+let day = "Sunday"
+switch (day) {
+    case 'Sunday':
+        console.log ("7am")
+        break;
+    case "Monday":
+    case "Tuesday":
+    case "Wednesday":
+        console.log ("4pm")
+        break;
+    case "Thursday":
+        console.log ("5pm")
+        break;
+    case "Friday":
+        console.log ("8am")
+        break;
+}
 
